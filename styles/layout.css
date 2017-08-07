@@ -1,0 +1,195 @@
+input:focus, a:focus {
+    outline: none;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+.client-info{
+    width:100%;
+    height:696px;
+    background: url("images/bg-info.jpg") no-repeat center;
+}
+.client-footer{
+    height: 84px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.client-footer li{
+    width: 33.33333%;
+    height:100%;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    line-height: 84px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.pre-btn{
+    background-color: #f2f9ff;
+}
+.sure-btn{
+    border-right: #ccc solid 1px;
+}
+.sure-btn,.pic-btn{
+    color: #ffffff;
+    background-color: #a71f23;
+}
+.pages2{
+    display: none;
+}
+.client-pic{
+    width: 100%;
+    height: 780px;
+    background: url("images/bg-pic1.jpg") no-repeat center;
+    background-size: cover;
+}
+.product-header{
+    background: url("images/bg-m2.jpg") no-repeat center;
+}
+.product-menu li:nth-child(1).current{
+    background: url("images/icon-sale.jpg") no-repeat center;
+}
+ .product-menu li:nth-child(1){
+     background: url("images/icon-sale3.jpg") no-repeat center;
+ }
+.product-menu li:nth-child(2){
+    background: url("images/icon-sale2.jpg") no-repeat center;
+}
+.product-menu li:nth-child(2).current{
+    background: url("images/icon-sale4.jpg") no-repeat center;
+}
+.product-free,.product-hot{
+    width: 960px;
+    height:592px;
+}
+.product-hot{
+    background: url("images/bg-insur.jpg") no-repeat center;
+}
+.product-free{
+    display: none;
+    height: 686px;
+    background: url("images/bg-bx2.jpg") no-repeat center;
+}
+.product-footer-btn{
+    width: 75%;
+    height: 88px;
+    background: #e6e6e6;
+    position: relative;
+    left: 25%;
+}
+.product-content2{
+    display: none;
+    height:686px;
+    background: url("images/bg-bx3.jpg") no-repeat center;
+}
+.product-ar-bg{
+    height:602px;
+    background: url("images/bg-product.jpg") no-repeat center;
+}
+.product-footer-wrapper{
+    width: 639px;
+    height: 100%;
+    background: url("images/icon-next.jpg") no-repeat center;
+}
+.product-footer-wrapper li{
+    line-height: 82px;
+    text-align: center;
+    float: left;
+}
+.p-a-next{
+    width: 34%;
+    font-size: 36px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+.product-ar-liyi,.product-ar-tk,.product-ar-tips{
+    display: none;
+}
+.product-ar-liyi{
+    position: relative;
+    background: url("images/b3.jpg") no-repeat center;
+}
+.product-ar-tk{
+    background: url("images/bg-table3.jpg") no-repeat center;
+}
+.product-ar-tips{
+    background: url("images/bg-tips.jpg") no-repeat center;
+}
+.wrapper2,.wrapper3,.wrapper4{
+    display: none;
+}
+.product-footer-wrap li{
+    width: 33.3333%;
+    height: 88px;
+    float: left;
+    font-size: 36px;
+    line-height: 88px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.product-footer-wrap li:nth-child(1),.product-footer-wrap li:nth-child(2){
+    background-color: #ffffff;
+    border-bottom: #ccc solid 2px;
+}
+.product-footer-wrap li:nth-child(1){
+    border-right: #ccc solid 2px;
+}
+.wrapper3 li,.wrapper4 li{
+    width: 50%;
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    height:88px;
+    line-height: 88px;
+    font-size: 36px;
+    background-color: #a71f23;
+}
+.liyi-inwrap button{
+    width: 94px;
+    height: 56px;
+    border:#aa1d25 solid 1px;
+    background-color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    color: #a3a3a3;
+    display: block;
+}
+.liyi-inwrap{
+    position: absolute;
+    right: 20px;
+    top:30%;
+    z-index: 1;
+}
+.liyi-inwrap button.current{
+    background-color:#aa1d25;
+    color: #ffffff;
+}
+.liyi-inwrap button.shengu{
+    border-top: 0;
+    border-bottom: 0;
+}
+.product-share,.share-chat,.share-client{
+    width: 100%;
+    height: 780px;
+}
+.product-share{
+    background-image: url("images/bg-share3.jpg");
+}
+.share-chat{
+    background-image: url("images/bg-share.jpg");
+}
+/*.share-client{*/
+    /*background-image: url("images/client.jpg");*/
+/*}*/
+/*.share-chat,.share-client{*/
+    /*display: none;*/
+/*}*/
